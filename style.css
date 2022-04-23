@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #242d34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eff3f4;
+}
+.container__1 > img{
+    height: 3rem;
+}
+.container{
+    border-radius: 15px;
+    margin-top: 36px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 585px;
+    padding: 20px 110px;
+}
+.container__1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__2{
+    display: flex;
+    flex-direction: column;
+    width: 20pc;
+    gap: 20px;
+}
+.container__2 > button{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+.container__3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+button{
+    cursor: pointer;
+    padding: 10px 0px;
+    border-radius: 20px;
+    margin: 0 20px;
+    border: none;
+}
+.container__2 > button{
+    background-color: white;
+}
+input{
+    font-size: 15px;
+    padding: 20px 10px;
+    margin: 0 20px;
+    border-radius: 5px;
+    outline: none;
+    border: .1px solid #242d34;
+    background-color: black;
+    color: white;
+}
+#google{
+    color: #242d34;
+    font-weight: 600;
+}
+#apple{
+    font-weight: 750;
+    text-shadow: 1px 1px #ccc;
+}
+#avancar{
+    font-weight: 750;
+    text-shadow: 1px 1px #ccc;
+}
+#esqueceu{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    font-weight: 750;
+    text-shadow: 1px 1px grey;
+    transition: .3s;
+}
+#google:hover{
+    background-color: rgba(255, 255, 255, .95);
+}
+#apple:hover, #avancar:hover{
+    background-color: rgba(255, 255, 255, .87);
+}
+#esqueceu:hover{
+    background-color: rgba(255, 255, 255, .05);
+}
+input:focus{
+    border: .1px solid #278ed8;
+}
+a{
+    text-decoration: none;
+    color: #278ed8;
+    text-shadow: 1px .05px;
+}
+a:hover{
+    text-decoration: underline;
+}
+@media (max-width: 625px){
+   body{
+       background-color: black;
+   }
+   .container{
+       padding-top: 0px;
+       margin-top: 0px;
+   }
+}
